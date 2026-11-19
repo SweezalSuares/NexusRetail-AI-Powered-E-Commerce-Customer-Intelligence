@@ -1,0 +1,59 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+myenv/
+.venv/
+ENV/
+
+# Python environment files
+.python-version
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model training temporary files
+*.pkl.tmp
+*.joblib.tmp
+
+# Keep project datasets and trained models
+# Do not ignore data/, models/, or reports/
